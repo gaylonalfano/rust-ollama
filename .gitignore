@@ -1,0 +1,10 @@
+# -- Base
+.*
+!.gitignore
+
+*.lock
+*.log
+
+# -- Rust
+/target
+!.cargo/
